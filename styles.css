@@ -1,0 +1,82 @@
+* {
+
+    /* default box-sizing is content-box */
+    /* content box = only item, don't include border, margin, padding */
+    /* border box = item + border+ margin + padding */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131720;
+    font-family: sans-serif;
+}
+
+h4 {
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navbar .search-container {
+    float: right;
+    margin-top: 16px;
+}
+
+form {
+    background-color: #1e355e;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.thumbnail {
+    width: 280px;
+    height: 250px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #151f30;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
