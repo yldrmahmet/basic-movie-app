@@ -1,0 +1,1 @@
+![ekranresmi](ekranresmi.png)
