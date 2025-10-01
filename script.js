@@ -1,4 +1,4 @@
-const API_KEY = "your-api-key-here";
+const API_KEY = "your_api_key_here";
 const APILINK = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&page=1`;
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI =
@@ -13,7 +13,6 @@ function returnMovies(url) {
   fetch(url)
     .then((res) => res.json())
     .then(function (data) {
-      console.log(data.results);
       data.results.forEach((element) => {
         const div_card = document.createElement("div");
         div_card.setAttribute("class", "card");
